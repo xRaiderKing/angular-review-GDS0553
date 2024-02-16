@@ -6,14 +6,24 @@
 ## Instalación
 1. 
 ## Instalación de modulos
-1. Instalación de PrimeNG
-1.1 Entramos a nuestro proyecto
-3. Instalación de JSON-SERVER
-2.1 Entramos al siguiente a nuestra carpeta del proyecto
+Instalación de PrimeNG
+Entramos a nuestro proyecto
+```
+cd [nombre del proyecto]
+```
+Ahora ponemos el siguiente comando
+```
+npm install primeng
+```
+Instalación de JSON-SERVER
+Entramos al siguiente a nuestro proyecto
    ```
    cd [nombre del proyecto]
    ```
-2.2 Ahora ponemos el siguiente comando para la instalación
+Ahora ponemos el siguiente comando para la instalación
+```
+npm install json-server
+```
 
 ## Levantar el servidor JSON-SERVER
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
