@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "1c19",
+      "fullname": "dasdasdkj",
+      "email": "dasdsa@gmail.com",
+      "password": "jesus"
+    },
+    {
+      "id": "91e4",
+      "fullname": "Hola",
+      "email": "jesus@gmail.com",
+      "password": "gola"
+    },
+    {
+      "id": "e576",
+      "fullname": "Hola",
+      "email": "jesus@gmail.com",
+      "password": "gola"
+    },
+    {
+      "id": "9cf8",
+      "fullname": "Yael",
+      "email": "yael@gmail.com",
+      "password": "jesus2004"
+    },
+    {
+      "id": "50fb",
+      "fullname": "Jesus",
+      "email": "jesus@gmail.com",
+      "password": "jesus2004"
+    },
+    {
+      "id": "78c1",
+      "fullname": "Jesus",
+      "email": "jesus@gmail.com",
+      "password": "jesus"
+    }
+  ]
+}

@@ -1,6 +1,11 @@
 import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { get } from 'http';
+import { Auth } from '../../interfaces/auth';
+import { AuthService } from '../../services/auth.service';
+import { Router } from '@angular/router';
+import { error } from 'console';
+import { MessageService } from 'primeng/api';
 
 
 @Component({
@@ -16,7 +21,7 @@ export class RegisterComponent {
     confirmPassword: ['', [Validators.required]]
   });
 
-  constructor(private fb:FormBuilder){
+  constructor(private fb:FormBuilder, private authService:AuthService, private messageService: MessageService, private router:Router){
 
   }
 
@@ -34,6 +39,28 @@ export class RegisterComponent {
 
   get confirmPassword() {
     return this.registerForm.controls['confirmPassword']
+  }
+
+
+  enviarUsuario(){
+    console.log("Estoy enviando datos")
+
+    const datos = {...this.registerForm.value}
+    delete datos.confirmPassword;
+
+     this.authService.registerUser(datos as Auth).subscribe(
+      response => {
+        this.messageService.add({ severity: 'success',
+         summary: 'Registo Exitoso',
+        detail: 'El usuario a sido registrado con exito' });
+        this.router.navigate(['login']);
+      },
+      error => {
+        this.messageService.add({ severity: 'error',
+         summary: 'Error alta usuario',
+        detail: 'El usuario no se ha podido registrar' });
+      }
+    )
   }
 
 }
