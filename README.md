@@ -30,7 +30,10 @@ npm install json-server
 ```
 
 ## Levantar el servidor JSON-SERVER
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para levantar el servidor debemos estar dentro de la carpeta de nuestro proyecto y poner el siguiente comando
+```
+json-server --watch db.json
+```
 
 ## Ejecutar el servidor
 
