@@ -9,7 +9,7 @@
 ## Instalación
 1. 
 ## Instalación de modulos
-Instalación de PrimeNG
+<h1>Instalación de PrimeNG</h1>
 
 
 Entramos a nuestro proyecto
@@ -20,7 +20,7 @@ Ahora ponemos el siguiente comando
 ```
 npm install primeng
 ```
-Instalación de JSON-SERVER
+<h1>Instalación de JSON-SERVER</h1>
 
 
 Entramos al siguiente a nuestro proyecto
