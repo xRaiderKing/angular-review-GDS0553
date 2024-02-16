@@ -16,6 +16,8 @@ Ahora ponemos el siguiente comando
 npm install primeng
 ```
 Instalación de JSON-SERVER
+
+
 Entramos al siguiente a nuestro proyecto
    ```
    cd [nombre del proyecto]
