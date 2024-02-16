@@ -1,27 +1,63 @@
 # JypLoginGds0553
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+ Alumno: Jesus Yael Padron Grimaldo
+ 
+ Grupo: GDS0553
+ 
+ Fecha: 16-02-2024
 
-## Development server
+## Instalación
+Para clonar un proyecto tienes que acceder a tu proyecto
+```
+cd [Nombre_Proyecto]
+```
+Luego para clonarlo ponemos la url del github
+```
+git clone url
+```
+## Instalación de modulos
+<h1>Instalación de PrimeNG</h1>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Entramos a nuestro proyecto
+```
+cd [nombre del proyecto]
+```
+Ahora ponemos el siguiente comando
+```
+npm install primeng
+```
+<h1>Instalación de JSON-SERVER</h1>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Entramos al siguiente a nuestro proyecto
+   ```
+   cd [nombre del proyecto]
+   ```
+Ahora ponemos el siguiente comando para la instalación
+```
+npm install json-server
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Levantar el servidor JSON-SERVER
+Para levantar el servidor debemos estar dentro de la carpeta de nuestro proyecto y poner el siguiente comando
+```
+json-server --watch db.json
+```
 
-## Running unit tests
+## Ejecutar el servidor
+a
+Para ejecutar el sevidor de Angular, debemos de estar dentro de la carpeta de nuestro proyecto
+```
+cd [nombre del proyecto]
+```
+Y despues poner el siguiente comando
+```
+ng serve --o
+```
+## Ingresa URL
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<a href="https://localhost:4200/" title="Optional title">Ingresar a la pagina</a>
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
