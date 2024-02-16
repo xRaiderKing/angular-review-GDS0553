@@ -7,7 +7,7 @@
  Fecha: 16-02-2024
 
 ## Instalación
-Para clonar un repositorio tienes que acceder a tu proyecto
+Para clonar un proyecto tienes que acceder a tu proyecto
 ```
 cd [Nombre_Proyecto]
 ```
