@@ -7,6 +7,8 @@
 1. 
 ## Instalación de modulos
 Instalación de PrimeNG
+
+
 Entramos a nuestro proyecto
 ```
 cd [nombre del proyecto]
