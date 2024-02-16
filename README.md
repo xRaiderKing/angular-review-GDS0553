@@ -7,7 +7,14 @@
  Fecha: 16-02-2024
 
 ## Instalación
-1. 
+Para clonar un repositorio tienes que acceder a tu proyecto
+```
+cd [Nombre_Proyecto]
+```
+Luego para clonarlo ponemos la url del github
+```
+git clone url
+```
 ## Instalación de modulos
 <h1>Instalación de PrimeNG</h1>
 
@@ -39,7 +46,7 @@ json-server --watch db.json
 ```
 
 ## Ejecutar el servidor
-
+a
 Para ejecutar el sevidor de Angular, debemos de estar dentro de la carpeta de nuestro proyecto
 ```
 cd [nombre del proyecto]
