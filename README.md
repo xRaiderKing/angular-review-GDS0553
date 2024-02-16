@@ -8,7 +8,7 @@
 ## Instalación de modulos
 1. Instalación de PrimeNG
 1.1 Entramos a nuestro proyecto
-2. Instalación de JSON-SERVER
+3. Instalación de JSON-SERVER
 2.1 Entramos al siguiente a nuestra carpeta del proyecto
    ```
    cd [nombre del proyecto]
