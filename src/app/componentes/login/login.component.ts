@@ -35,6 +35,9 @@ export class LoginComponent {
       if (response.length > 0 && response[0].password == password) {
         sessionStorage.setItem('email', email as string);
         this.router.navigate(['home']);
+      }else{
+        console.log('Contraseña incorrecta');
+        
       }
     });
   }
