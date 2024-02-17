@@ -4,7 +4,7 @@ import { error } from 'console';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
 import { response } from 'express';
-
+import { MessageService } from 'primeng/api';
 
 @Component({
   selector: 'app-login',
@@ -17,7 +17,7 @@ export class LoginComponent {
     password: ['', [Validators.required]]
   });
 
-  constructor(private fb: FormBuilder, private authService: AuthService, private router: Router) {
+  constructor(private fb: FormBuilder, private authService: AuthService, private router: Router, private messageService: MessageService) {
   }
 
   get email() {
@@ -37,9 +37,13 @@ export class LoginComponent {
         this.router.navigate(['home']);
       }else{
         console.log('Contraseña incorrecta');
+        this.messageService.add({ severity: 'error',
+         summary: 'Errorusuario',
+        detail: 'Contraseña incorrecta' });
         
       }
     });
+    
   }
   }
 

@@ -6,6 +6,7 @@ import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
 import { error } from 'console';
 import { MessageService } from 'primeng/api';
+import { passwordMatchValidator } from '../shared/password-match.directive';
 
 
 @Component({
@@ -19,6 +20,8 @@ export class RegisterComponent {
     email: ['', [Validators.required, Validators.email]],
     password: ['', [Validators.required]],
     confirmPassword: ['', [Validators.required]]
+  },{
+    validators: passwordMatchValidator
   });
 
   constructor(private fb:FormBuilder, private authService:AuthService, private messageService: MessageService, private router:Router){

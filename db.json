@@ -35,6 +35,12 @@
       "fullname": "Jesus",
       "email": "jesus@gmail.com",
       "password": "jesus"
+    },
+    {
+      "id": "e6b6",
+      "fullname": "Fernando",
+      "email": "jesus@g.o",
+      "password": "jesus"
     }
   ]
 }
