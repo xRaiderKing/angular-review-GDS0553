@@ -37,6 +37,7 @@
         name="password"
         [toggleMask]="true"
         styleClass="w-full"
+        placeholder="Ingresa tu contraseña"
       ></p-password>
     </div>
     <small *ngIf="password.invalid && (password.dirty || password.touched)">
@@ -47,6 +48,7 @@
         formControlName="confirmPassword"
         name="confirmPassword"
         [toggleMask]="true"
+        placeholder="Ingresa tu contraseña"
         styleClass="w-full"
       ></p-password>
       <small *ngIf="confirmPassword.invalid && (confirmPassword.dirty || confirmPassword.touched)">
