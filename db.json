@@ -47,6 +47,12 @@
       "fullname": "Manuel",
       "email": "manuel@gmail.com",
       "password": "manuel2004"
+    },
+    {
+      "id": "4db0",
+      "fullname": "Gabriel",
+      "email": "gabriel@gmail.com",
+      "password": "gabriel"
     }
   ]
 }
